@@ -1,4 +1,8 @@
+
+def custoemrs = ['Stacy', 'Ajay','Alexy','Vladmir','Li']
 def call(){
-	def browsers = ['Stacy', 'Ajay']
 	sh 'echo "Library has been imported successfully." '
+}
+def getList(){
+	return customers
 }
