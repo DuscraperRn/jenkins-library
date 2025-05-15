@@ -1,3 +1,3 @@
-def callme(){
+def call(){
 	sh 'echo "Library has been imported successfully." '
 }
