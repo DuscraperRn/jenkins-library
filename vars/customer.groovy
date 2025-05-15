@@ -1,8 +1,12 @@
-def call(){
-	sh 'echo "Library has been imported successfully." '
-}
+def asset = ['Stacy', 'Ajay','Alexy','Vladmir','Li']
 
-def getCustomers() {
-	def asset = ['Stacy', 'Ajay','Alexy','Vladmir','Li']
-    return asset
+def call() {
+    return [
+        greet: {
+            sh 'echo "Library has been imported successfully."'
+        },
+        getList: {
+            return asset
+        }
+    ]
 }
