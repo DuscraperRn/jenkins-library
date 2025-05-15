@@ -1,5 +1,4 @@
-
-def custoemrs = ['Stacy', 'Ajay','Alexy','Vladmir','Li']
+def customers = ['Stacy', 'Ajay','Alexy','Vladmir','Li']
 def call(){
 	sh 'echo "Library has been imported successfully." '
 }
