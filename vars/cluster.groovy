@@ -3,7 +3,7 @@ def call(){
 	return [
 		msg: {
 			echo "Initializing cluster list..."
-		}
+		},
 		getCluster: {
 			return cluster_list
 		}
